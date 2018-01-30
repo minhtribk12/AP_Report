@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{courserabigdata}
+Spark - big data.
+\newblock \url{https://www.coursera.org/learn/scala-spark-big-data}.
+
+\bibitem{coursera}
+Spark - introduce.
+\newblock
+  \url{https://www.coursera.org/learn/hadoop/lecture/9cq0R/introduction-to-apache-spark}.
+
+\bibitem{spark}
+Spark, lightning-fast cluster computing.
+\newblock \url{https://spark.apache.org/docs/latest/index.html}.
+
+\bibitem{zeppelin}
+Zeppelin, web-based notebook that enables data-driven, interactive data
+  analytics and collaborative documents with sql, scala and more.
+\newblock \url{https://http://zeppelin.apache.org}.
+
+\end{thebibliography}

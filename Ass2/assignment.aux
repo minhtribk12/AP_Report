@@ -1,0 +1,59 @@
+\relax 
+\select@language{english}
+\@writefile{toc}{\select@language{english}}
+\@writefile{lof}{\select@language{english}}
+\@writefile{lot}{\select@language{english}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduce}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Intel Xeon Phi}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Introduction}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Manycore Intel Xeon Phi}}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Multicore Intel Xeon}}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Heterogeneous Computing and Clustering}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Programming model spectrum}}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Native model}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces This C++ language code (``Native-Hello.cc") can be compiled for execution on the host as well as on an Intel Xeon Phi coprocessor.}}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Compiling and running the ``Hello World" code on the host.}}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Transferring and running a native application on an Intel Xeon Phi coprocessor.}}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Offload programing model}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces ``Hello World" in the explicit offload model.}}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Output of the execution of Offload-Hello.cc.}}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Offloading Functions}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Offloading a function to an Intel Xeon Phi coprocessor.}}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Declaring multiple functions with the target attribute qualifier.}}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Offloading Scope-Local Data}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Offload of local scalars and arrays of known size using \#pragma offload.}}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Offload of pointer based arrays of unknown size.}}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Data Transfer without Computation}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Transferring data to the coprocessor without computation.}}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Data and Memory Persistence Between Offloads}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Illustration of memory buffer retention on coprocessor between offloads.}}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Illustration data persistence on coprocessor between offloads.}}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Offloading Global and Static Variables}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Offload of global and static variables.}}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Memory retention and data persistence on coprocessor}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Memory retention and data persistence.}}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Asynchronous Offload}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Illustration of asynchronous data transfer and wait clause.}}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Illustration of asynchronous offload to different coprocessors.}}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8}Target-Specific Code}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Tuning parameters can be multi-versioned using $\_\_MIC\_\_$.}}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces $\_\_MIC\_\_$ can protect functions unavailable on either the host, or the target platform.}}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.9}Optional and Conditional Offload, Fall-Back to Host}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Offload-Fallback.cc: handling fall-back to host when offload fails.}}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.10}Offload Diagnostics}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}The pyMic Module}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Introduction}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Cython Mechanism.}}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Simplistic offload example to acquire an offload device and invoke.}}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Empty kernel implementing the ``nop" kernel.}}{16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Basic Interface}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Operations of the offload array class.}}{16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Implementation of computing function}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces pyMIC Architecture.}}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces pyMIC Kernels.}}{18}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Experimental result with Chainer}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Chainer}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces Define neural network for MINIST digit classification.}}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Results}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces Comparing Chainer running on CPU and Xeon Phi.}}{19}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Reference}{20}}
